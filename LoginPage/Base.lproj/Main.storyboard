@@ -73,6 +73,13 @@
                                     <action selector="loginClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1t-4i-wGj"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1eg-OG-HE3">
+                                <rect key="frame" x="283.5" y="552" width="33" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="1MQ-lo-QgD"/>
+                                    <constraint firstAttribute="width" constant="33" id="vwm-7n-eIV"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBD-D0-bCz">
                                 <rect key="frame" x="129" y="549" width="342" height="40"/>
                                 <color key="backgroundColor" red="0.058823529411764705" green="0.30196078431372547" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
@@ -84,13 +91,6 @@
                                     <action selector="loginCustomActivityIndicator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ElO-mW-BxF"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1eg-OG-HE3">
-                                <rect key="frame" x="283.5" y="552" width="33" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="1MQ-lo-QgD"/>
-                                    <constraint firstAttribute="width" constant="33" id="vwm-7n-eIV"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>

@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var activityImage: UIImageView!
     
+    var customActivityView: CircleCustomActivity!
+    
     //Native acitivty indicator at the center of the button after fading in
     @IBAction func loginClicked(sender: AnyObject) {
         UIView.animateWithDuration(0.75, delay: 0.0, options: .CurveEaseIn, animations: {
@@ -37,9 +39,15 @@ class ViewController: UIViewController {
         UIView.animateWithDuration(1.0, delay: 0.0, options: .CurveEaseIn, animations: {
             
             //Based on the background colour requirements, the alpha value can be chaged
-            self.loginCustomActivity.alpha = 0.0
+            self.loginCustomActivity.alpha = 0.1
+            self.loginCustomActivity.setTitle("", forState: UIControlState.Normal)
             }) { (true) in
-                self.activityImage.startAnimating()
+//                self.activityImage.startAnimating()
+                print(self.loginCustomActivity.center)
+                let rect = CGRect(x: self.loginCustomActivity.frame.midX, y: self.loginCustomActivity.frame.midY - self.loginCustomActivity.bounds.size.height/2, width: 40, height: self.loginCustomActivity.bounds.size.height)
+                print(rect)
+                self.customActivityView = CircleCustomActivity(frame: rect)
+                self.view.addSubview(self.customActivityView)
         }
     }
     

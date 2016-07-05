@@ -13,6 +13,7 @@
 		28184BF21D2A82470076A0DB /* LoginPage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28184BF01D2A82470076A0DB /* LoginPage.xcdatamodeld */; };
 		28184BF41D2A82470076A0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28184BF31D2A82470076A0DB /* Assets.xcassets */; };
 		28184BF71D2A82470076A0DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28184BF51D2A82470076A0DB /* LaunchScreen.storyboard */; };
+		28184C071D2BFB200076A0DB /* CircleCustomActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28184C061D2BFB200076A0DB /* CircleCustomActivity.swift */; };
 		F9F9C84A20172BAB1B7124F8 /* Pods_PiOctave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF1765D6A21B9221906094C /* Pods_PiOctave.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		28184BF31D2A82470076A0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28184BF61D2A82470076A0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28184BF81D2A82470076A0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28184C061D2BFB200076A0DB /* CircleCustomActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleCustomActivity.swift; sourceTree = "<group>"; };
 		4E2471366E8D6601CD42594C /* Pods-PiOctave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiOctave.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiOctave/Pods-PiOctave.release.xcconfig"; sourceTree = "<group>"; };
 		6C8B122736EB24E886DEEFB4 /* Pods-PiOctave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiOctave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiOctave/Pods-PiOctave.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF1765D6A21B9221906094C /* Pods_PiOctave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiOctave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 			children = (
 				28184BE91D2A82470076A0DB /* AppDelegate.swift */,
 				28184BEB1D2A82470076A0DB /* ViewController.swift */,
+				28184C061D2BFB200076A0DB /* CircleCustomActivity.swift */,
 				28184BED1D2A82470076A0DB /* Main.storyboard */,
 				28184BF31D2A82470076A0DB /* Assets.xcassets */,
 				28184BF51D2A82470076A0DB /* LaunchScreen.storyboard */,
@@ -216,6 +219,7 @@
 				28184BF21D2A82470076A0DB /* LoginPage.xcdatamodeld in Sources */,
 				28184BEC1D2A82470076A0DB /* ViewController.swift in Sources */,
 				28184BEA1D2A82470076A0DB /* AppDelegate.swift in Sources */,
+				28184C071D2BFB200076A0DB /* CircleCustomActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
